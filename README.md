@@ -4,4 +4,4 @@ Mix three Extruder (R,G,B colors) to reach choosen color and generate Marlin GCo
 - Add multilanguage support (de, en)
 
 V1.0
-- First Version
+- First release version
