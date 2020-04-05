@@ -1,4 +1,4 @@
-#define Version=GetFileVersion("..\3DPrintColorMixer\bin\Release\3DPrintColorMixer.exe")
+#define Version=GetFileVersion("..\bin\Release\3DPrintColorMixer.exe")
 #define Name="3DPrintColorMixer"
 #define Firma="Smartsirius"
 #define Jahr="2020"
@@ -34,7 +34,7 @@ SolidCompression=True
 ;WizardImageFile="..\3DPrintColorMixer\Logos\logo_install.bmp"
 ;WizardSmallImageFile="..\ISG.App.Wpf.CncEditor\Logos\logo_install_small.bmp"
 
-OutputDir=.
+OutputDir=Output
 UsePreviousSetupType=False
 UsePreviousTasks=False
 UsePreviousLanguage=False
