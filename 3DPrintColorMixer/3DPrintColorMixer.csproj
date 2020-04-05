@@ -115,5 +115,9 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Installation\3DPrintColorMixer.iss" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
