@@ -59,59 +59,5 @@ namespace _3DPrintColorMixer.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Calculate color from gcode ähnelt.
-        /// </summary>
-        internal static string calculateColorFromGcode {
-            get {
-                return ResourceManager.GetString("calculateColorFromGcode", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die The sum of all extruder can not be higher than 100% ähnelt.
-        /// </summary>
-        internal static string ErrorSumOver100Percent {
-            get {
-                return ResourceManager.GetString("ErrorSumOver100Percent", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die White and black are base colors and can not be choosen. ähnelt.
-        /// </summary>
-        internal static string ErrorWhiteBlack {
-            get {
-                return ResourceManager.GetString("ErrorWhiteBlack", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Generate gcode from color ähnelt.
-        /// </summary>
-        internal static string generateGcodeFromColor {
-            get {
-                return ResourceManager.GetString("generateGcodeFromColor", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Gcode was copied to clipboard. ähnelt.
-        /// </summary>
-        internal static string messageGcodeToClipboard {
-            get {
-                return ResourceManager.GetString("messageGcodeToClipboard", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die Ready. ähnelt.
-        /// </summary>
-        internal static string messageReady {
-            get {
-                return ResourceManager.GetString("messageReady", resourceCulture);
-            }
-        }
     }
 }
