@@ -1,0 +1,2 @@
+# 3DPrintColorMixer
+Mix three Extruder (R,G,B) colors to choosen color and generate Marlin GCode for Virtual Tool.
