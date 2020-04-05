@@ -117,10 +117,340 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelExtruder2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 264</value>
+  </data>
+  <data name="&gt;&gt;comboBoxLanguages.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelExtruder3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;comboBoxLanguages.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonE1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCalcColorFromGcode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonE2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="&gt;&gt;buttonLED.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxLanguages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelExtruder2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonCalcColorFromGcode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 93</value>
+  </data>
+  <data name="labelExtruder3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 288</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gcodeTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ColorMixerForm</value>
+  </data>
+  <data name="&gt;&gt;buttonCalcGcodeFromColor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonE1.Name" xml:space="preserve">
+    <value>buttonE1</value>
+  </data>
+  <data name="&gt;&gt;buttonCalcGcodeFromColor.Name" xml:space="preserve">
+    <value>buttonCalcGcodeFromColor</value>
+  </data>
+  <data name="gcodeTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 310</value>
+  </data>
+  <data name="buttonE1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 260</value>
+  </data>
+  <data name="&gt;&gt;buttonLED.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBoxLanguages.Name" xml:space="preserve">
+    <value>comboBoxLanguages</value>
+  </data>
+  <data name="&gt;&gt;buttonCalcColorFromGcode.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;buttonLED.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;labelExtruder2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Name" xml:space="preserve">
+    <value>statusStrip</value>
+  </data>
+  <data name="labelExtruder2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="buttonLED.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="labelExtruder2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="&gt;&gt;buttonE2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;buttonCalcColorFromGcode.Name" xml:space="preserve">
+    <value>buttonCalcColorFromGcode</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonLED.Name" xml:space="preserve">
+    <value>buttonLED</value>
+  </data>
+  <data name="buttonE0.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;colorDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;buttonE2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonCalcGcodeFromColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 66</value>
+  </data>
+  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>580, 22</value>
+  </data>
+  <data name="labelExtruder1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;buttonE0.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonE1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonE2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 284</value>
+  </data>
+  <data name="buttonLED.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 165</value>
+  </data>
+  <data name="buttonCalcColorFromGcode.Text" xml:space="preserve">
+    <value>Farbe aus GCode berechnen</value>
+  </data>
+  <data name="&gt;&gt;labelExtruder1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCalcColorFromGcode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 335</value>
+  </data>
+  <data name="gcodeTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buttonCalcColorFromGcode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 66</value>
+  </data>
+  <data name="&gt;&gt;buttonE2.Name" xml:space="preserve">
+    <value>buttonE2</value>
+  </data>
+  <data name="comboBoxLanguages.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="labelExtruder1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="buttonCalcGcodeFromColor.Text" xml:space="preserve">
+    <value>Aus Farbe GCode erzeugen</value>
+  </data>
+  <data name="buttonE0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="&gt;&gt;labelExtruder3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonE1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="labelExtruder3.Text" xml:space="preserve">
+    <value>Extruder 3</value>
+  </data>
+  <data name="labelExtruder2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonE0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 236</value>
+  </data>
+  <data name="&gt;&gt;buttonE0.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelExtruder1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 240</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBoxLanguages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 21</value>
+  </data>
+  <data name="&gt;&gt;gcodeTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonE0.Name" xml:space="preserve">
+    <value>buttonE0</value>
+  </data>
+  <data name="&gt;&gt;gcodeTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gcodeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 12</value>
+  </data>
+  <data name="buttonCalcColorFromGcode.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelExtruder1.Text" xml:space="preserve">
+    <value>Extruder 1</value>
+  </data>
+  <data name="gcodeTextBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;buttonCalcGcodeFromColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelExtruder3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="buttonE2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusMessage.Name" xml:space="preserve">
+    <value>toolStripStatusMessage</value>
+  </data>
+  <data name="&gt;&gt;gcodeTextBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;labelExtruder1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;labelExtruder1.Name" xml:space="preserve">
+    <value>labelExtruder1</value>
+  </data>
+  <data name="&gt;&gt;buttonE2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelExtruder2.Text" xml:space="preserve">
+    <value>Extruder 2</value>
+  </data>
+  <data name="&gt;&gt;labelExtruder2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxLanguages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 336</value>
+  </data>
+  <data name="buttonCalcGcodeFromColor.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonE0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripStatusMessage.Text" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="&gt;&gt;labelExtruder3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;colorDialog.Name" xml:space="preserve">
+    <value>colorDialog</value>
+  </data>
+  <data name="&gt;&gt;labelExtruder1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonCalcGcodeFromColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 21</value>
+  </data>
+  <data name="labelExtruder3.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="labelExtruder1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelExtruder3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCalcGcodeFromColor.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>3DPrintColorMixer</value>
+  </data>
+  <data name="&gt;&gt;buttonE1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;gcodeTextBox.Name" xml:space="preserve">
+    <value>gcodeTextBox</value>
+  </data>
+  <data name="buttonLED.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 66</value>
+  </data>
+  <data name="&gt;&gt;labelExtruder2.Name" xml:space="preserve">
+    <value>labelExtruder2</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>580, 357</value>
+  </data>
+  <data name="buttonLED.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonE1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="toolStripStatusMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 17</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelExtruder3.Name" xml:space="preserve">
+    <value>labelExtruder3</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="statusStrip.Text" xml:space="preserve">
+    <value>statusStrip</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>131, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>de</value>
+  </metadata>
   <metadata name="colorDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
-  </metadata>
-  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>131, 17</value>
   </metadata>
 </root>

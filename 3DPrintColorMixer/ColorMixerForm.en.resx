@@ -117,22 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="calculateColorFromGcode" xml:space="preserve">
-    <value>Calculate color from gcode</value>
+  <data name="buttonCalcGcodeFromColor.Text" xml:space="preserve">
+    <value>Generate GCode form color</value>
   </data>
-  <data name="ErrorSumOver100Percent" xml:space="preserve">
-    <value>The sum of all extruder can not be higher than 100%</value>
+  <data name="buttonCalcColorFromGcode.Text" xml:space="preserve">
+    <value>Get Color from GCode</value>
   </data>
-  <data name="ErrorWhiteBlack" xml:space="preserve">
-    <value>White and black are base colors and can not be choosen.</value>
+  <data name="buttonLED.Text" xml:space="preserve">
+    <value> </value>
   </data>
-  <data name="generateGcodeFromColor" xml:space="preserve">
-    <value>Generate gcode from color</value>
+  <data name="buttonE0.Text" xml:space="preserve">
+    <value> </value>
   </data>
-  <data name="messageGcodeToClipboard" xml:space="preserve">
-    <value>Gcode was copied to clipboard.</value>
+  <data name="buttonE1.Text" xml:space="preserve">
+    <value> </value>
   </data>
-  <data name="messageReady" xml:space="preserve">
+  <data name="buttonE2.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStripStatusMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 17</value>
+  </data>
+  <data name="toolStripStatusMessage.Text" xml:space="preserve">
     <value>Ready.</value>
   </data>
 </root>

@@ -117,22 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="calculateColorFromGcode" xml:space="preserve">
-    <value>Berechne Farbe aus GCode</value>
+  <data name="buttonLED.Text" xml:space="preserve">
+    <value> </value>
   </data>
-  <data name="ErrorSumOver100Percent" xml:space="preserve">
-    <value>Die Summe der Extruder Anteile darf nicht größer 100% sein.</value>
+  <data name="buttonE0.Text" xml:space="preserve">
+    <value> </value>
   </data>
-  <data name="ErrorWhiteBlack" xml:space="preserve">
-    <value>Weiß und Schwarz sind Basisfarben und können nicht gewählt werden.</value>
+  <data name="buttonE1.Text" xml:space="preserve">
+    <value> </value>
   </data>
-  <data name="generateGcodeFromColor" xml:space="preserve">
-    <value>GCode aus Farbe generieren</value>
-  </data>
-  <data name="messageGcodeToClipboard" xml:space="preserve">
-    <value>GCode wurde in die Zwischenablage kopiert.</value>
-  </data>
-  <data name="messageReady" xml:space="preserve">
-    <value>Bereit.</value>
+  <data name="buttonE2.Text" xml:space="preserve">
+    <value> </value>
   </data>
 </root>

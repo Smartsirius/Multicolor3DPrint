@@ -28,159 +28,132 @@
     /// </summary>
     private void InitializeComponent()
     {
-            this.gcodeTextBox = new System.Windows.Forms.RichTextBox();
-            this.colorDialog = new System.Windows.Forms.ColorDialog();
-            this.buttonCalcGcodeFromColor = new System.Windows.Forms.Button();
-            this.buttonCalcColorFromGcode = new System.Windows.Forms.Button();
-            this.buttonLED = new System.Windows.Forms.Button();
-            this.buttonE0 = new System.Windows.Forms.Button();
-            this.buttonE1 = new System.Windows.Forms.Button();
-            this.buttonE2 = new System.Windows.Forms.Button();
-            this.labelExtruder1 = new System.Windows.Forms.Label();
-            this.labelExtruder2 = new System.Windows.Forms.Label();
-            this.labelExtruder3 = new System.Windows.Forms.Label();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusMessage = new System.Windows.Forms.ToolStripStatusLabel();
-            this.statusStrip1.SuspendLayout();
-            this.SuspendLayout();
-            // 
-            // gcodeTextBox
-            // 
-            this.gcodeTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gcodeTextBox.Location = new System.Drawing.Point(202, 12);
-            this.gcodeTextBox.Name = "gcodeTextBox";
-            this.gcodeTextBox.Size = new System.Drawing.Size(366, 310);
-            this.gcodeTextBox.TabIndex = 0;
-            this.gcodeTextBox.Text = "";
-            // 
-            // buttonCalcGcodeFromColor
-            // 
-            this.buttonCalcGcodeFromColor.Location = new System.Drawing.Point(24, 21);
-            this.buttonCalcGcodeFromColor.Name = "buttonCalcGcodeFromColor";
-            this.buttonCalcGcodeFromColor.Size = new System.Drawing.Size(114, 66);
-            this.buttonCalcGcodeFromColor.TabIndex = 1;
-            this.buttonCalcGcodeFromColor.Text = "Aus Farbe GCode erzeugen";
-            this.buttonCalcGcodeFromColor.UseVisualStyleBackColor = true;
-            this.buttonCalcGcodeFromColor.Click += new System.EventHandler(this.ButtonCalcFromColor_Click);
-            // 
-            // buttonCalcColorFromGcode
-            // 
-            this.buttonCalcColorFromGcode.Location = new System.Drawing.Point(24, 93);
-            this.buttonCalcColorFromGcode.Name = "buttonCalcColorFromGcode";
-            this.buttonCalcColorFromGcode.Size = new System.Drawing.Size(114, 66);
-            this.buttonCalcColorFromGcode.TabIndex = 2;
-            this.buttonCalcColorFromGcode.Text = "Farbe aus GCode berechnen";
-            this.buttonCalcColorFromGcode.UseVisualStyleBackColor = true;
-            this.buttonCalcColorFromGcode.Click += new System.EventHandler(this.ButtonCalcFromGcode_Click);
-            // 
-            // buttonLED
-            // 
-            this.buttonLED.AllowDrop = true;
-            this.buttonLED.Enabled = false;
-            this.buttonLED.Location = new System.Drawing.Point(26, 165);
-            this.buttonLED.Name = "buttonLED";
-            this.buttonLED.Size = new System.Drawing.Size(114, 66);
-            this.buttonLED.TabIndex = 3;
-            this.buttonLED.UseVisualStyleBackColor = true;
-            // 
-            // buttonE0
-            // 
-            this.buttonE0.BackColor = System.Drawing.Color.Red;
-            this.buttonE0.Location = new System.Drawing.Point(118, 236);
-            this.buttonE0.Name = "buttonE0";
-            this.buttonE0.Size = new System.Drawing.Size(20, 20);
-            this.buttonE0.TabIndex = 7;
-            this.buttonE0.UseVisualStyleBackColor = false;
-            this.buttonE0.Click += new System.EventHandler(this.buttonE0_Click);
-            // 
-            // buttonE1
-            // 
-            this.buttonE1.BackColor = System.Drawing.Color.Lime;
-            this.buttonE1.Location = new System.Drawing.Point(118, 260);
-            this.buttonE1.Name = "buttonE1";
-            this.buttonE1.Size = new System.Drawing.Size(20, 20);
-            this.buttonE1.TabIndex = 8;
-            this.buttonE1.UseVisualStyleBackColor = false;
-            this.buttonE1.Click += new System.EventHandler(this.buttonE1_Click);
-            // 
-            // buttonE2
-            // 
-            this.buttonE2.BackColor = System.Drawing.Color.Blue;
-            this.buttonE2.Location = new System.Drawing.Point(118, 284);
-            this.buttonE2.Name = "buttonE2";
-            this.buttonE2.Size = new System.Drawing.Size(20, 20);
-            this.buttonE2.TabIndex = 9;
-            this.buttonE2.UseVisualStyleBackColor = false;
-            this.buttonE2.Click += new System.EventHandler(this.buttonE2_Click);
-            // 
-            // labelExtruder1
-            // 
-            this.labelExtruder1.AutoSize = true;
-            this.labelExtruder1.Location = new System.Drawing.Point(23, 240);
-            this.labelExtruder1.Name = "labelExtruder1";
-            this.labelExtruder1.Size = new System.Drawing.Size(55, 13);
-            this.labelExtruder1.TabIndex = 10;
-            this.labelExtruder1.Text = "Extruder 1";
-            // 
-            // labelExtruder2
-            // 
-            this.labelExtruder2.AutoSize = true;
-            this.labelExtruder2.Location = new System.Drawing.Point(23, 264);
-            this.labelExtruder2.Name = "labelExtruder2";
-            this.labelExtruder2.Size = new System.Drawing.Size(55, 13);
-            this.labelExtruder2.TabIndex = 11;
-            this.labelExtruder2.Text = "Extruder 2";
-            // 
-            // labelExtruder3
-            // 
-            this.labelExtruder3.AutoSize = true;
-            this.labelExtruder3.Location = new System.Drawing.Point(23, 288);
-            this.labelExtruder3.Name = "labelExtruder3";
-            this.labelExtruder3.Size = new System.Drawing.Size(55, 13);
-            this.labelExtruder3.TabIndex = 12;
-            this.labelExtruder3.Text = "Extruder 3";
-            // 
-            // statusStrip1
-            // 
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ColorMixerForm));
+      this.gcodeTextBox = new System.Windows.Forms.RichTextBox();
+      this.colorDialog = new System.Windows.Forms.ColorDialog();
+      this.buttonCalcGcodeFromColor = new System.Windows.Forms.Button();
+      this.buttonCalcColorFromGcode = new System.Windows.Forms.Button();
+      this.buttonLED = new System.Windows.Forms.Button();
+      this.buttonE0 = new System.Windows.Forms.Button();
+      this.buttonE1 = new System.Windows.Forms.Button();
+      this.buttonE2 = new System.Windows.Forms.Button();
+      this.labelExtruder1 = new System.Windows.Forms.Label();
+      this.labelExtruder2 = new System.Windows.Forms.Label();
+      this.labelExtruder3 = new System.Windows.Forms.Label();
+      this.statusStrip = new System.Windows.Forms.StatusStrip();
+      this.toolStripStatusMessage = new System.Windows.Forms.ToolStripStatusLabel();
+      this.comboBoxLanguages = new System.Windows.Forms.ComboBox();
+      this.statusStrip.SuspendLayout();
+      this.SuspendLayout();
+      // 
+      // gcodeTextBox
+      // 
+      resources.ApplyResources(this.gcodeTextBox, "gcodeTextBox");
+      this.gcodeTextBox.Name = "gcodeTextBox";
+      // 
+      // buttonCalcGcodeFromColor
+      // 
+      resources.ApplyResources(this.buttonCalcGcodeFromColor, "buttonCalcGcodeFromColor");
+      this.buttonCalcGcodeFromColor.Name = "buttonCalcGcodeFromColor";
+      this.buttonCalcGcodeFromColor.UseVisualStyleBackColor = true;
+      this.buttonCalcGcodeFromColor.Click += new System.EventHandler(this.ButtonCalcFromColor_Click);
+      // 
+      // buttonCalcColorFromGcode
+      // 
+      resources.ApplyResources(this.buttonCalcColorFromGcode, "buttonCalcColorFromGcode");
+      this.buttonCalcColorFromGcode.Name = "buttonCalcColorFromGcode";
+      this.buttonCalcColorFromGcode.UseVisualStyleBackColor = true;
+      this.buttonCalcColorFromGcode.Click += new System.EventHandler(this.ButtonCalcFromGcode_Click);
+      // 
+      // buttonLED
+      // 
+      resources.ApplyResources(this.buttonLED, "buttonLED");
+      this.buttonLED.AllowDrop = true;
+      this.buttonLED.Name = "buttonLED";
+      this.buttonLED.UseVisualStyleBackColor = true;
+      // 
+      // buttonE0
+      // 
+      resources.ApplyResources(this.buttonE0, "buttonE0");
+      this.buttonE0.BackColor = System.Drawing.Color.Red;
+      this.buttonE0.Name = "buttonE0";
+      this.buttonE0.UseVisualStyleBackColor = false;
+      this.buttonE0.Click += new System.EventHandler(this.buttonE0_Click);
+      // 
+      // buttonE1
+      // 
+      resources.ApplyResources(this.buttonE1, "buttonE1");
+      this.buttonE1.BackColor = System.Drawing.Color.Lime;
+      this.buttonE1.Name = "buttonE1";
+      this.buttonE1.UseVisualStyleBackColor = false;
+      this.buttonE1.Click += new System.EventHandler(this.buttonE1_Click);
+      // 
+      // buttonE2
+      // 
+      resources.ApplyResources(this.buttonE2, "buttonE2");
+      this.buttonE2.BackColor = System.Drawing.Color.Blue;
+      this.buttonE2.Name = "buttonE2";
+      this.buttonE2.UseVisualStyleBackColor = false;
+      this.buttonE2.Click += new System.EventHandler(this.buttonE2_Click);
+      // 
+      // labelExtruder1
+      // 
+      resources.ApplyResources(this.labelExtruder1, "labelExtruder1");
+      this.labelExtruder1.Name = "labelExtruder1";
+      // 
+      // labelExtruder2
+      // 
+      resources.ApplyResources(this.labelExtruder2, "labelExtruder2");
+      this.labelExtruder2.Name = "labelExtruder2";
+      // 
+      // labelExtruder3
+      // 
+      resources.ApplyResources(this.labelExtruder3, "labelExtruder3");
+      this.labelExtruder3.Name = "labelExtruder3";
+      // 
+      // statusStrip
+      // 
+      resources.ApplyResources(this.statusStrip, "statusStrip");
+      this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusMessage});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 335);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(580, 22);
-            this.statusStrip1.TabIndex = 13;
-            this.statusStrip1.Text = "statusStrip1";
-            // 
-            // toolStripStatusMessage
-            // 
-            this.toolStripStatusMessage.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripStatusMessage.Name = "toolStripStatusMessage";
-            this.toolStripStatusMessage.Size = new System.Drawing.Size(22, 17);
-            this.toolStripStatusMessage.Text = "Ok";
-            // 
-            // ColorMixerForm
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(580, 357);
-            this.Controls.Add(this.statusStrip1);
-            this.Controls.Add(this.labelExtruder3);
-            this.Controls.Add(this.labelExtruder2);
-            this.Controls.Add(this.labelExtruder1);
-            this.Controls.Add(this.buttonE2);
-            this.Controls.Add(this.buttonE1);
-            this.Controls.Add(this.buttonE0);
-            this.Controls.Add(this.buttonLED);
-            this.Controls.Add(this.buttonCalcColorFromGcode);
-            this.Controls.Add(this.buttonCalcGcodeFromColor);
-            this.Controls.Add(this.gcodeTextBox);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Name = "ColorMixerForm";
-            this.Text = "3DPrintColorMixer";
-            this.statusStrip1.ResumeLayout(false);
-            this.statusStrip1.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+      this.statusStrip.Name = "statusStrip";
+      // 
+      // toolStripStatusMessage
+      // 
+      resources.ApplyResources(this.toolStripStatusMessage, "toolStripStatusMessage");
+      this.toolStripStatusMessage.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+      this.toolStripStatusMessage.Name = "toolStripStatusMessage";
+      // 
+      // comboBoxLanguages
+      // 
+      resources.ApplyResources(this.comboBoxLanguages, "comboBoxLanguages");
+      this.comboBoxLanguages.FormattingEnabled = true;
+      this.comboBoxLanguages.Name = "comboBoxLanguages";
+      this.comboBoxLanguages.SelectedIndexChanged += new System.EventHandler(this.comboBoxLanguages_SelectedIndexChanged);
+      // 
+      // ColorMixerForm
+      // 
+      resources.ApplyResources(this, "$this");
+      this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+      this.Controls.Add(this.comboBoxLanguages);
+      this.Controls.Add(this.statusStrip);
+      this.Controls.Add(this.labelExtruder3);
+      this.Controls.Add(this.labelExtruder2);
+      this.Controls.Add(this.labelExtruder1);
+      this.Controls.Add(this.buttonE2);
+      this.Controls.Add(this.buttonE1);
+      this.Controls.Add(this.buttonE0);
+      this.Controls.Add(this.buttonLED);
+      this.Controls.Add(this.buttonCalcColorFromGcode);
+      this.Controls.Add(this.buttonCalcGcodeFromColor);
+      this.Controls.Add(this.gcodeTextBox);
+      this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+      this.Name = "ColorMixerForm";
+      this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ColorMixerForm_FormClosing);
+      this.statusStrip.ResumeLayout(false);
+      this.statusStrip.PerformLayout();
+      this.ResumeLayout(false);
+      this.PerformLayout();
 
     }
 
@@ -197,8 +170,9 @@
         private System.Windows.Forms.Label labelExtruder1;
         private System.Windows.Forms.Label labelExtruder2;
         private System.Windows.Forms.Label labelExtruder3;
-        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.StatusStrip statusStrip;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusMessage;
+        private System.Windows.Forms.ComboBox comboBoxLanguages;
     }
 }
 
