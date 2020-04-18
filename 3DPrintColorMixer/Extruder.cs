@@ -8,7 +8,7 @@ namespace ColorMixer
 {
   class Extruder
   {
-    internal int Propotion { get; set; }
+    internal double Propotion { get; set; }
     internal Color Color { get; set; }
   }
 }

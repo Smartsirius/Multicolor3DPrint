@@ -34,5 +34,197 @@ namespace _3DPrintColorMixer.Properties {
                 this["Language"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Red")]
+        public global::System.Drawing.Color Extruder1_Color {
+            get {
+                return ((global::System.Drawing.Color)(this["Extruder1_Color"]));
+            }
+            set {
+                this["Extruder1_Color"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Lime")]
+        public global::System.Drawing.Color Extruder2_Color {
+            get {
+                return ((global::System.Drawing.Color)(this["Extruder2_Color"]));
+            }
+            set {
+                this["Extruder2_Color"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Blue")]
+        public global::System.Drawing.Color Extruder3_Color {
+            get {
+                return ((global::System.Drawing.Color)(this["Extruder3_Color"]));
+            }
+            set {
+                this["Extruder3_Color"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("255, 192, 192")]
+        public global::System.Drawing.Color Extruder4_Color {
+            get {
+                return ((global::System.Drawing.Color)(this["Extruder4_Color"]));
+            }
+            set {
+                this["Extruder4_Color"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Olive")]
+        public global::System.Drawing.Color Extruder5_Color {
+            get {
+                return ((global::System.Drawing.Color)(this["Extruder5_Color"]));
+            }
+            set {
+                this["Extruder5_Color"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("192, 0, 192")]
+        public global::System.Drawing.Color Extruder6_Color {
+            get {
+                return ((global::System.Drawing.Color)(this["Extruder6_Color"]));
+            }
+            set {
+                this["Extruder6_Color"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("192, 192, 255")]
+        public global::System.Drawing.Color Extruder7_Color {
+            get {
+                return ((global::System.Drawing.Color)(this["Extruder7_Color"]));
+            }
+            set {
+                this["Extruder7_Color"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Yellow")]
+        public global::System.Drawing.Color Extruder8_Color {
+            get {
+                return ((global::System.Drawing.Color)(this["Extruder8_Color"]));
+            }
+            set {
+                this["Extruder8_Color"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("255, 128, 0")]
+        public global::System.Drawing.Color Extruder9_Color {
+            get {
+                return ((global::System.Drawing.Color)(this["Extruder9_Color"]));
+            }
+            set {
+                this["Extruder9_Color"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("192, 255, 192")]
+        public global::System.Drawing.Color Extruder10_Color {
+            get {
+                return ((global::System.Drawing.Color)(this["Extruder10_Color"]));
+            }
+            set {
+                this["Extruder10_Color"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Silver")]
+        public global::System.Drawing.Color Extruder11_Color {
+            get {
+                return ((global::System.Drawing.Color)(this["Extruder11_Color"]));
+            }
+            set {
+                this["Extruder11_Color"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("255, 224, 192")]
+        public global::System.Drawing.Color Extruder12_Color {
+            get {
+                return ((global::System.Drawing.Color)(this["Extruder12_Color"]));
+            }
+            set {
+                this["Extruder12_Color"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("255, 192, 255")]
+        public global::System.Drawing.Color Extruder13_Color {
+            get {
+                return ((global::System.Drawing.Color)(this["Extruder13_Color"]));
+            }
+            set {
+                this["Extruder13_Color"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0, 64, 64")]
+        public global::System.Drawing.Color Extruder14_Color {
+            get {
+                return ((global::System.Drawing.Color)(this["Extruder14_Color"]));
+            }
+            set {
+                this["Extruder14_Color"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("128, 64, 0")]
+        public global::System.Drawing.Color Extruder15_Color {
+            get {
+                return ((global::System.Drawing.Color)(this["Extruder15_Color"]));
+            }
+            set {
+                this["Extruder15_Color"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Aqua")]
+        public global::System.Drawing.Color Extruder16_Color {
+            get {
+                return ((global::System.Drawing.Color)(this["Extruder16_Color"]));
+            }
+            set {
+                this["Extruder16_Color"] = value;
+            }
+        }
     }
 }

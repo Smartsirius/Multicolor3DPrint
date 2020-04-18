@@ -25,20 +25,20 @@ namespace ColorMixer
 
       var hundredPercent = Red + Green + Blue;
 
-      RedPropotion = Red / hundredPercent * 100;
-      GreenPropotion = Green / hundredPercent * 100;
-      BluePropotion = Blue / hundredPercent * 100;
+      RedPropotion = Red / hundredPercent;
+      GreenPropotion = Green / hundredPercent;
+      BluePropotion = Blue / hundredPercent;
 
       ActiveColor = color;
     }
 
-    internal void Set(double redP, double greenP, double blueP)
-    {
-      RedPropotion = redP;
-      GreenPropotion = greenP;
-      BluePropotion = blueP;
+    //internal void Set(double redP, double greenP, double blueP)
+    //{
+    //  RedPropotion = redP;
+    //  GreenPropotion = greenP;
+    //  BluePropotion = blueP;
 
-      ActiveColor = System.Drawing.Color.FromArgb(255, (int)Red, (int)Green, (int)Blue);
-    }
+    //  ActiveColor = System.Drawing.Color.FromArgb(255, (int)Red, (int)Green, (int)Blue);
+    //}
   }
 }

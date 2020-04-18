@@ -5,5 +5,53 @@
     <Setting Name="Language" Type="System.String" Scope="User">
       <Value Profile="(Default)">de-DE</Value>
     </Setting>
+    <Setting Name="Extruder1_Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Red</Value>
+    </Setting>
+    <Setting Name="Extruder2_Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Lime</Value>
+    </Setting>
+    <Setting Name="Extruder3_Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Blue</Value>
+    </Setting>
+    <Setting Name="Extruder4_Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">255, 192, 192</Value>
+    </Setting>
+    <Setting Name="Extruder5_Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Olive</Value>
+    </Setting>
+    <Setting Name="Extruder6_Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">192, 0, 192</Value>
+    </Setting>
+    <Setting Name="Extruder7_Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">192, 192, 255</Value>
+    </Setting>
+    <Setting Name="Extruder8_Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Yellow</Value>
+    </Setting>
+    <Setting Name="Extruder9_Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">255, 128, 0</Value>
+    </Setting>
+    <Setting Name="Extruder10_Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">192, 255, 192</Value>
+    </Setting>
+    <Setting Name="Extruder11_Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Silver</Value>
+    </Setting>
+    <Setting Name="Extruder12_Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">255, 224, 192</Value>
+    </Setting>
+    <Setting Name="Extruder13_Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">255, 192, 255</Value>
+    </Setting>
+    <Setting Name="Extruder14_Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">0, 64, 64</Value>
+    </Setting>
+    <Setting Name="Extruder15_Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">128, 64, 0</Value>
+    </Setting>
+    <Setting Name="Extruder16_Color" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Aqua</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
