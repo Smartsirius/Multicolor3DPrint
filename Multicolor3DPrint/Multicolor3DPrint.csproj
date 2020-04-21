@@ -92,6 +92,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Multicolor3DPrint.png" />
     <Content Include="Installation\Multicolor3DPrint.iss" />
     <Content Include="Licences\newtonsoft.json_licence.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
