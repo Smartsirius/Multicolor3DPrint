@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Globalization;
 using System.Windows.Forms;
@@ -94,11 +95,22 @@ namespace Multicolor3DPrint
 
     private void ToolStripButtonGenerateCode_Click(object sender, EventArgs e)
     {
+      List<Extruder> allExtruder = new List<Extruder>();
       richTextBoxCode.Clear();
+      foreach (var tool in myPrinter.Extruders)
+      {
+        allExtruder.Add(tool);
+      }
+
       foreach (var virtualTool in myPrinter.VirtualTools)
       {
+        allExtruder.Add(virtualTool);
+      }
+
+      foreach (var extruder in allExtruder)
+      {
         // Cancel at Black or White color
-        if (virtualTool.Color.Name.ToUpper() == "WHITE" || virtualTool.Color.Name.ToUpper() == "BLACK")
+        if (extruder.Color.Name.ToUpper() == "WHITE" || extruder.Color.Name.ToUpper() == "BLACK")
         {
           MessageBox.Show(this, "Color white or black are not allowed.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
           return;
@@ -114,45 +126,46 @@ namespace Multicolor3DPrint
         Extruder greenExtr = new Extruder();
         Extruder blueExtr = new Extruder();
 
-        myPrinter.PrintColor.CalcProportion(virtualTool.Color);
+        myPrinter.PrintColor.CalcProportion(extruder.Color);
 
         foreach (var item in flowLayoutPanelBottom.Controls)
         {
           // find colors in all real extruders
-          Extruder extruder = myPrinter.Extruders.Find(x => x.GetColor() == Color.Red);
-          if (extruder == null)
+          Extruder extr = myPrinter.Extruders.Find(x => x.GetColor() == Color.Red);
+          if (extr == null)
           {
             MessageBox.Show(this, "No Extruder with color Red found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             return;
           }
-          redExtr = extruder;
+          redExtr = extr;
 
-          extruder = myPrinter.Extruders.Find(x => x.GetColor() == Color.Lime);
-          if (extruder == null)
+          extr = myPrinter.Extruders.Find(x => x.GetColor() == Color.Lime);
+          if (extr == null)
           {
             MessageBox.Show(this, "No Extruder with color Green found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             return;
           }
-          greenExtr = extruder;
+          greenExtr = extr;
 
-          extruder = myPrinter.Extruders.Find(x => x.GetColor() == Color.Blue);
-          if (extruder == null)
+          extr = myPrinter.Extruders.Find(x => x.GetColor() == Color.Blue);
+          if (extr == null)
           {
             MessageBox.Show(this, "No Extruder with color Blue found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             return;
           }
-          blueExtr = extruder;
+          blueExtr = extr;
         }
-        Extruder currentVirtualTool = myPrinter.VirtualTools.Find(x => x.GetColor() == myPrinter.PrintColor.Color);
-        if (currentVirtualTool != null)
+        Extruder currentTool = allExtruder.Find(x => x.GetColor() == myPrinter.PrintColor.Color);
+        if (currentTool != null)
         {
+          text += string.Format("; Color: {0}\n", currentTool.Color.Name);
           text += string.Format("M163 S{0} P{1}\n", redExtr.Number, myPrinter.PrintColor.ProportionOfRed.
            ToString("0.000", languageForNumberFormat.NumberFormat));
           text += string.Format("M163 S{0} P{1}\n", greenExtr.Number, myPrinter.PrintColor.ProportionOfGreen.
            ToString("0.000", languageForNumberFormat.NumberFormat));
           text += string.Format("M163 S{0} P{1}\n", blueExtr.Number, myPrinter.PrintColor.ProportionOfBlue.
            ToString("0.000", languageForNumberFormat.NumberFormat));
-          text += string.Format("M164 S{0}\nT{0}\n", currentVirtualTool.Number);
+          text += string.Format("M164 S{0}\nT{0}\n\n", currentTool.Number);
           richTextBoxCode.Text += text;
           richTextBoxCode.SelectAll();
           richTextBoxCode.Copy();
