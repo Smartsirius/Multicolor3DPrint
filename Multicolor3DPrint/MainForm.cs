@@ -165,7 +165,7 @@ namespace Multicolor3DPrint
            ToString("0.000", languageForNumberFormat.NumberFormat));
           text += string.Format("M163 S{0} P{1}\n", blueExtr.Number, myPrinter.PrintColor.ProportionOfBlue.
            ToString("0.000", languageForNumberFormat.NumberFormat));
-          text += string.Format("M164 S{0}\nT{0}\n\n", currentTool.Number);
+          text += string.Format("M164 S{0}\n;T{0}\n\n", currentTool.Number);
           richTextBoxCode.Text += text;
           richTextBoxCode.SelectAll();
           richTextBoxCode.Copy();

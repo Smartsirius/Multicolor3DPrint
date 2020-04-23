@@ -94,6 +94,9 @@
   <ItemGroup>
     <Content Include="Images\Multicolor3DPrint.png" />
     <Content Include="Installation\Multicolor3DPrint.iss" />
+    <Content Include="Licences\3d_printer_icon_png_author.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Licences\newtonsoft.json_licence.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
