@@ -1,0 +1,86 @@
+{
+  "Language": "en-US",
+  "Machine": {
+    "NumberOfExtruders": 3,
+    "NumberOfVirtualTools": 10,
+    "HotEnd": 2,
+    "PrintColor": {
+      "Color": "",
+      "ProportionOfRed": 0.0,
+      "ProportionOfGreen": 0.0,
+      "ProportionOfBlue": 0.0,
+      "Red": 0,
+      "Green": 0,
+      "Blue": 0
+    },
+    "Extruders": [
+      {
+        "Name": "extruder0",
+        "Number": 0,
+        "Color": "Red"
+      },
+      {
+        "Name": "extruder1",
+        "Number": 1,
+        "Color": "Lime"
+      },
+      {
+        "Name": "extruder2",
+        "Number": 2,
+        "Color": "Blue"
+      }
+    ],
+    "VirtualTools": [
+      {
+        "Name": "virtualtool0",
+        "Number": 3,
+        "Color": "Yellow"
+      },
+      {
+        "Name": "virtualtool1",
+        "Number": 4,
+        "Color": "Green"
+      },
+      {
+        "Name": "virtualtool2",
+        "Number": 5,
+        "Color": "Brown"
+      },
+      {
+        "Name": "virtualtool3",
+        "Number": 6,
+        "Color": "Orange"
+      },
+      {
+        "Name": "virtualtool4",
+        "Number": 7,
+        "Color": "64, 0, 128"
+      },
+      {
+        "Name": "virtualtool5",
+        "Number": 8,
+        "Color": "Aqua"
+      },
+      {
+        "Name": "virtualtool6",
+        "Number": 9,
+        "Color": "255, 128, 192"
+      },
+      {
+        "Name": "virtualtool7",
+        "Number": 10,
+        "Color": "Maroon"
+      },
+      {
+        "Name": "virtualtool8",
+        "Number": 11,
+        "Color": "0, 0, 160"
+      },
+      {
+        "Name": "virtualtool9",
+        "Number": 12,
+        "Color": "128, 128, 64"
+      }
+    ]
+  }
+}
