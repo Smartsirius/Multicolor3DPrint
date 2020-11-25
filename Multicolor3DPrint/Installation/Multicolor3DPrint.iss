@@ -43,6 +43,7 @@ ChangesAssociations=True
 UserInfoPage=False
 UninstallDisplayIcon={app}\{#Name}.exe
 PrivilegesRequired=none
+ArchitecturesInstallIn64BitMode=x64
 
 [Dirs]
 Name: "{app}\Licences"
@@ -52,7 +53,7 @@ Source: "..\bin\Release\Multicolor3DPrint.exe"; DestDir: "{app}"; Flags: ignorev
 Source: "..\bin\Release\Newtonsoft.Json.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\bin\Release\Newtonsoft.Json.xml"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\bin\Release\settings.json"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\bin\Release\Licences\newtonsoft.json_licence.txt"; DestDir: "{app}\Licences"; Flags: ignoreversion
+Source: "..\bin\Release\Licences\*"; DestDir: "{app}\Licences"; Flags: ignoreversion
 Source: "..\bin\Release\Multicolor3DPrint.exe.config"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
