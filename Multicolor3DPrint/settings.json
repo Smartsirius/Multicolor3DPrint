@@ -2,7 +2,7 @@
   "Language": "en-US",
   "Machine": {
     "NumberOfExtruders": 3,
-    "NumberOfVirtualTools": 10,
+    "NumberOfVirtualTools": 13,
     "HotEnd": 2,
     "PrintColor": {
       "Color": "",
@@ -31,56 +31,71 @@
       }
     ],
     "VirtualTools": [
-      {
-        "Name": "virtualtool0",
-        "Number": 3,
-        "Color": "Yellow"
-      },
-      {
-        "Name": "virtualtool1",
-        "Number": 4,
-        "Color": "Green"
-      },
-      {
-        "Name": "virtualtool2",
-        "Number": 5,
-        "Color": "Brown"
-      },
-      {
-        "Name": "virtualtool3",
-        "Number": 6,
-        "Color": "Orange"
-      },
-      {
-        "Name": "virtualtool4",
-        "Number": 7,
-        "Color": "64, 0, 128"
-      },
-      {
-        "Name": "virtualtool5",
-        "Number": 8,
-        "Color": "Aqua"
-      },
-      {
-        "Name": "virtualtool6",
-        "Number": 9,
-        "Color": "255, 128, 192"
-      },
-      {
-        "Name": "virtualtool7",
-        "Number": 10,
-        "Color": "Maroon"
-      },
-      {
-        "Name": "virtualtool8",
-        "Number": 11,
-        "Color": "0, 0, 160"
-      },
-      {
-        "Name": "virtualtool9",
-        "Number": 12,
-        "Color": "128, 128, 64"
-      }
+        {
+            "Name": "virtualtool0",
+            "Number": 3,
+            "Color": "Yellow"
+        },
+        {
+            "Name": "virtualtool1",
+            "Number": 4,
+            "Color": "Green"
+        },
+        {
+            "Name": "virtualtool2",
+            "Number": 5,
+            "Color": "Brown"
+        },
+        {
+            "Name": "virtualtool3",
+            "Number": 6,
+            "Color": "Orange"
+        },
+        {
+            "Name": "virtualtool4",
+            "Number": 7,
+            "Color": "64, 0, 128"
+        },
+        {
+            "Name": "virtualtool5",
+            "Number": 8,
+            "Color": "Aqua"
+        },
+        {
+            "Name": "virtualtool6",
+            "Number": 9,
+            "Color": "255, 128, 192"
+        },
+        {
+            "Name": "virtualtool7",
+            "Number": 10,
+            "Color": "Maroon"
+        },
+        {
+            "Name": "virtualtool8",
+            "Number": 11,
+            "Color": "0, 0, 160"
+        },
+        {
+            "Name": "virtualtool9",
+            "Number": 12,
+            "Color": "128, 128, 64"
+        },
+        {
+            "Name": "virtualtool10",
+            "Number": 13,
+            "Color": "128, 128, 64"
+        },
+        {
+            "Name": "virtualtool11",
+            "Number": 14,
+            "Color": "128, 128, 64"
+        },
+        {
+            "Name": "virtualtool12",
+            "Number": 15,
+            "Color": "128, 128, 64"
+        }
     ]
   }
 }

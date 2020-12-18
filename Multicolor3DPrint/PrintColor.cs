@@ -5,9 +5,9 @@ namespace Multicolor3DPrint
   public class PrintColor
   {
     public Color Color;
-    public decimal ProportionOfRed;
-    public decimal ProportionOfGreen;
-    public decimal ProportionOfBlue;
+    public double ProportionOfRed;
+    public double ProportionOfGreen;
+    public double ProportionOfBlue;
 
     public byte Red { get; private set; }
     public byte Green { get; private set; }
@@ -21,9 +21,9 @@ namespace Multicolor3DPrint
 
       var hundredPercent = Red + Green + Blue;
 
-      ProportionOfRed = (decimal)Red / hundredPercent;
-      ProportionOfGreen = (decimal)Green / hundredPercent;
-      ProportionOfBlue = (decimal)Blue / hundredPercent;
+      ProportionOfRed = (double)Red / hundredPercent;
+      ProportionOfGreen = (double)Green / hundredPercent;
+      ProportionOfBlue = (double)Blue / hundredPercent;
 
       Color = color;
     }
