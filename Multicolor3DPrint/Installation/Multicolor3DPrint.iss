@@ -1,4 +1,4 @@
-#define Version=GetFileVersion("..\bin\Release\Multicolor3DPrint.exe")
+#define Version=GetFileVersion("..\bin\x64\Release\Multicolor3DPrint.exe")
 #define Name="Multicolor3DPrint"
 #define Firma="Smartsirius"
 #define Jahr="2020"
@@ -49,12 +49,12 @@ ArchitecturesInstallIn64BitMode=x64
 Name: "{app}\Licences"
 
 [Files]
-Source: "..\bin\Release\Multicolor3DPrint.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\bin\Release\Newtonsoft.Json.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\bin\Release\Newtonsoft.Json.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\bin\Release\settings.json"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\bin\Release\Licences\*"; DestDir: "{app}\Licences"; Flags: ignoreversion
-Source: "..\bin\Release\Multicolor3DPrint.exe.config"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\bin\x64\Release\Multicolor3DPrint.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\bin\x64\Release\Newtonsoft.Json.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\bin\x64\Release\Newtonsoft.Json.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\bin\x64\Release\settings.json"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\bin\x64\Release\Licences\*"; DestDir: "{app}\Licences"; Flags: ignoreversion
+Source: "..\bin\x64\Release\Multicolor3DPrint.exe.config"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
 Name: "{group}\Multicolor3DPrint"; Filename: "{app}\Multicolor3DPrint.exe"; WorkingDir: "{app}"; IconFilename: "{app}\Multicolor3DPrint.exe"
